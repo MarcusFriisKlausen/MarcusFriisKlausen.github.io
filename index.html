@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" 
+        href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.5.0/remixicon.min.css">
+        <link rel="stylesheet" href="style.css">
+        <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+        <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+        <title>Personal Portfolio | Marcus F. Klausen</title>
+    </head>
+
+    <body>
+        <!--Navigation bar-->
+        <div id="nav-placeholder"></div>
+
+        <script>
+            $(function(){
+              $("#nav-placeholder").load("navbar.html");
+            });
+        </script>
+        <!--end of Navigation bar-->
+
+        <header class="container">
+            <div class="content">
+                <span class="blur"></span>
+                <span class="blur"></span>
+                <h4>WELCOME TO MY PERSONAL PORTFOLIO</h4>
+                <H1>Hi, I'm <span>Marcus</span></H1>
+                <H2>Computer Science</H2>
+                <H3>Bachelor Student</H3>
+                <p>
+                    Hi there!
+                </p>
+                <p>
+                    This is my portfolio site, which intends to show off my personal work.
+                </p>
+            </div>
+        </header>
+
+        <section class="container">
+            <h2 class="header">MY PROJECTS</h2>
+            <div class="projects">
+                <div class="card">
+                    <span><i class="ri-git-repository-line"></i></span>
+                    <h4>Personal Portfolio</h4>
+                    <p>
+                        That's right, this website has been my first real project outside of mandatory school projects!
+                    </p>
+                    <a href="portfolioProject.html">Jump To Project <i class="ri-arrow-right-line"></i></a>
+                </div>
+                <div class="card">
+                    <span><i class="ri-git-repository-line"></i></span>
+                    <h4>To Do List Application</h4>
+                    <p>
+                        Simple To Do List app, which I created to get started with learning React.
+                    </p>
+                    <a href="todoProject.html">Jump To Project <i class="ri-arrow-right-line"></i></a>
+                </div>
+                <div class="card">
+                    <span><i class="ri-git-repository-line"></i></span>
+                    <h4>FUTURE PROJECT</h4>
+                    <p>
+                        Description will follow when project has been started :)
+                    </p>
+                    <!-- <a href="#">Jump To Project <i class="ri-arrow-right-line"></i></a> -->
+                </div>
+                <div class="card">
+                    <span><i class="ri-git-repository-line"></i></span>
+                    <h4>FUTURE PROJECT</h4>
+                    <p>
+                        Description will follow when project has been started :)
+                    </p>
+                    <!-- <a href="#">Jump To Project <i class="ri-arrow-right-line"></i></a> -->
+                </div>
+            </div>
+        </section>
+        
+        <!--Footer-->
+        <div id="footer-placeholder"></div>
+
+        <script>
+            $(function(){
+              $("#footer-placeholder").load("footer.html");
+            });
+        </script>
+        <!--end of footer-->
+        
+        <script src="script.js"></script>
+    </body>
+</html>

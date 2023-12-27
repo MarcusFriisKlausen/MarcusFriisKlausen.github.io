@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" 
+        href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.5.0/remixicon.min.css">
+        <link rel="stylesheet" href="style.css">
+        <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+        <title>To Do List App | Marcus F. Klausen</title>
+    </head>
+
+    <body>
+        
+        <!--Navigation bar-->
+        <div id="nav-placeholder">
+        
+        </div>
+        
+        <div class="nav-padding"></div>
+
+        <div class="about-content">
+            <h1>To Do List Application</h1>
+            <h4>
+              For a long time now, I've been wanting to get into React and learn how to build apps, <br>
+              and so i thought: what better way than creating a simple To Do List App to learn the framework? <br>
+              The application is very simple: The user writes a Task using the input field, and adds it by <br>
+              pressing the plus button. The user can the complete the Task by pressing it, and it disappears. <br>
+              <br>
+              The code is quite simple, most of it being styling. The main and only component is a Task, which is <br>
+              just a styled View consisting of a little pin symbol and some given Text. The app contains an array of <br>
+              these Tasks, and has a method for removing them, which is called by pressing the Task.<br>
+              <br>
+              Here's a video showcase of the app:
+            </h4>
+            <p>&nbsp;</p>
+            <video width="320" height="240" controls>
+              <source src="./videos/ToDoShowcase.MP4" type="video/mp4">
+              Your browser does not support the video tag.
+            </video>
+            <h4><span>Description:</span> The user creates 2 Tasks <br>
+              and completes them by clicking on the <br>tasks.
+            </h4>
+            <p>&nbsp;</p>
+            <p>&nbsp;</p>
+            <a href="https://github.com/MarcusFriisKlausen/ToDoList" target="_blank">Go to GitHub repository<i class="ri-arrow-right-line"></i></a>
+          </div>
+
+        <script>
+        $(function(){
+          $("#nav-placeholder").load("navbar.html");
+        });
+        </script>
+        <!--end of Navigation bar-->
+
+        <!--Footer-->
+        <div id="footer-placeholder"></div>
+
+        <script>
+            $(function(){
+              $("#footer-placeholder").load("footer.html");
+            });
+        </script>
+        <!--end of footer-->
+    </body>
+</html>
